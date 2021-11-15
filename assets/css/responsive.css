@@ -1,0 +1,163 @@
+/* PC */
+@media (min-width: 64em) {
+    .navigation-manual {
+        width: 94%;
+    }
+}
+/*Mobile & Tablet  */
+@media (max-width: 63.9375em) {
+    .header__navbar-list {
+        display: none;
+    }
+    .header__navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__logo,
+    .header__navbar-icon {
+        justify-content: center;
+    }
+    .slider-heading {
+        padding-top: 170%;
+        background-attachment: unset;
+        background-size: cover;
+    }
+    .wrapper__search-btn {
+        width: 100%;
+    }
+    .btn__search-icon {
+        right: 4%;
+    }
+    .wrapper__suggestions-list {
+        flex-direction: column;
+    }
+    .wrapper__suggestions-item {
+        width: 100%;
+        margin: 6px 0;
+    }
+   
+}
+/*Tablet  */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .wrapper__title-sub {
+        font-size: 2rem;
+    }
+    .gutter-top-tablet {
+        margin-top: 30px;
+    }
+    .section-slide2 {
+        height: 370px;
+    }
+    .section-container--title {
+        padding-bottom: 70px;
+        padding-left: 10%;
+    }
+    .navigation-auto {
+        width: 660px;
+    }
+    .beach__timeline {
+        width: 97.6%;
+    }
+    .section__beach--slide {
+        padding-top: 40px;
+    }
+    .tour-item {
+        padding: 20px 0;
+    }
+    .beach-bottom {
+        flex-direction: column;
+    }
+    .beach__banner {
+        flex:auto
+    }
+    .footer-wrapper {
+        padding-top: 156%;
+        background-size: auto;
+    }
+    .footer__content-icon {
+        padding: 11px 0 30px 0;
+    }
+    .navigation-manual {
+        top: 60px;
+    }
+}
+/*Mobile*/
+@media (max-width: 46.1875em) {
+    .p-r-l {
+        padding: 0 36px;
+    }
+    .slider-heading {
+        padding-top: 350%;
+    }
+    .wrapper__title {
+        line-height: 5rem;
+    }
+    .wrapper__title-sub {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .section-container--btn {
+        padding-top: 36px;
+    }
+    .slides {
+        max-height: 194px;
+        overflow: hidden;
+    }
+    .slide-img {
+        width: 100%;
+        height: auto;
+    }
+    .navigation-auto {
+        width: 100%;
+    }
+    .navigation-manual {
+        width: 98%;
+    }
+    .beach__timeline {
+        bottom: -230px;
+        width: 98%;
+    }
+    .timeline-row-item::after {
+        display: none;
+    }
+    .timeline-row-item {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+    .tour-list {
+        margin: 300px 0 50px;
+    }
+    .section__beach--slide {
+        margin-top: 36px;
+    }
+    .beach-bottom {
+        display: block;
+    }
+    .footer-from-contact {
+        flex-direction: column;
+    }
+    .btn-footer {
+        margin: 16px 0 0 0;
+        padding: 16px 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .from-text {
+        padding: 15px 30px;
+    }
+    .footer-wrapper {
+        padding-top: 380%;
+    }
+    .footer__bottom {
+        display: block;
+        text-align: center;
+    }
+    .bottom__text-right,
+    .bottom__text-left {
+        padding: 16px;
+    }
+    .footer__content-icon {
+        text-align: center;
+        padding: 16px 0 25px 0;
+    }
+} 
